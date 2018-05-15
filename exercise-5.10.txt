@@ -1,0 +1,6 @@
+# exercise 5.10 List all double or family rooms with a price below £40.00 per night,
+
+# in ascending order of price.
+SELECT * FROM Room WHERE Price < 40 AND roomType = 'Double' OR 'Family' 
+
+ORDER BY price asc;
